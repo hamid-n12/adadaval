@@ -1,0 +1,19 @@
+fun main() {
+    
+
+     fun checkprime(range : IntProgression) 
+ {
+    for (x in range)
+   {
+       var flag=true
+       for (i in 2 until x)
+     {
+        if (x % i == 0)
+        {
+            flag=false
+            break
+        }
+     }
+   }
+ }
+}
